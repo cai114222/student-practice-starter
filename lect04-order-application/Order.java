@@ -51,8 +51,7 @@ public class Order {
         } else if (subtotal >= 1000) {
             return 50;
         }
-        else {return 0;}
-
+        else {return 0;} 
     }
 
     public int calculateFinalAmount() {
